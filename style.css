@@ -1,0 +1,27 @@
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+.header{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding: 20px ;
+}
+.btn{
+     background: #FF9100;
+     color: #fff;
+     width: 141px;
+     height: 41px;
+     border-radius: 10px;
+     outline: none;
+     border: none;
+}
+.btn span{
+     font-family: 'Lato';
+     font-weight: 700;
+     font-size: 18px;
+     line-height: 22px;
+     color: #FFFFFF;
+}
