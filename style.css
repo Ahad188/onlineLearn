@@ -247,9 +247,20 @@ body{
      line-height: 20px;
      text-align: center;
      color: #374B5C;
-
 }
- 
+ /* news letter */
+ .newslateer{
+     text-align: center;
+ }
+ .sub-head{
+     margin-top: 80px;
+     font-family: 'Libre Baskerville';
+     font-weight: 400;
+     font-size: 36px;
+     line-height: 45px;
+     color: #374B5C;
+
+ }
 /* media  */
 @media screen and (max-width:576px) {
      .banner-container{
