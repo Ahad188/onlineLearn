@@ -249,17 +249,77 @@ body{
      color: #374B5C;
 }
  /* news letter */
- .newslateer{
+ .newsletr{
      text-align: center;
  }
+ .news-later-box{
+     max-width: 596px ;
+     margin: 50px auto;
+ }
  .sub-head{
-     margin-top: 80px;
      font-family: 'Libre Baskerville';
      font-weight: 400;
      font-size: 36px;
      line-height: 45px;
      color: #374B5C;
-
+ }
+ .sub-text{
+     font-family: 'Libre Baskerville';
+     font-weight: 400;
+     font-size: 16px;
+     line-height: 20px;
+     text-align: center;
+     color: #374B5C;
+     width: 424px;
+     height: 40px;
+     margin: 30px auto;
+ }
+ .email-box{
+     margin-top: 30px;
+     height: 69px;
+     border-radius: 20px;
+     display: flex;
+      justify-content: space-between;
+     border-radius: 20px;
+     background: #F6F5F1;
+     
+ }
+ .email{
+     max-width: 869px;
+     width: 100%;
+     border: none;
+     outline: none;
+     padding: 5px 80px;
+     border-radius: 20px;
+     background: transparent;
+ }
+ .email::placeholder{
+     padding: 5px 10px;
+     font-family: 'Libre Baskerville';
+     font-weight: 400;
+     font-size: 18px;
+     line-height: 22px;
+     color: #374B5C;
+ }
+ .value{
+     width: 167px;
+     height: 69px;
+     margin-left: -30px;
+     background: #FF9100;
+     outline: none;
+     border: none;
+     border-radius: 20px; 
+     font-family: 'Libre Baskerville';
+     font-weight: 400;
+     font-size: 18px;
+     line-height: 22px;
+     color: #FFFFFF;
+     transition: all 0.4s ease-in-out;
+ }
+ .value:hover{
+     border: 2px dotted #FF9100;
+     color:#FF9100;
+     background: transparent;
  }
 /* media  */
 @media screen and (max-width:576px) {
@@ -293,4 +353,10 @@ body{
           flex-direction: column;
           gap: 40px;
      }
+      .value{
+          margin-left: -10px;
+      }
+      .email-box{
+          gap: 40px;
+      }
 }
