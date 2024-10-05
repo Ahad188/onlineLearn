@@ -551,6 +551,12 @@ body{
           top: 200px;
           right: -40px;
      }
+     .new-learning{
+          font-size: 26px;
+     }
+     .online-learn{
+          font-size: 36px;
+     }
      /* welcome section */
      .welcome{
           margin-top: 290px;
@@ -591,15 +597,38 @@ body{
            margin-left: 60px;
       }
       footer{
-          height: 650px;
+          height: 800px;
       }
       .footer-content{
            /* grid-template-columns:  repeat(2, 1fr);
            grid-gap: 40px;
            padding: 0 30px; */
+           top: 350px;
            flex-direction: column;
            gap: 40px;
            text-align: center;
+            
+      }
+      .f-logo{
+          width: 140px;
+          margin-left: 35%;
+      }
+      .f-logo img{
+          width: 100%;
+      }
+      .f-text{
+          margin: 20px 0;
+          /* margin-left: 55px; */
+        
+          width: 250px;
+     }
+      .content1{
+          margin-top: 30px;
+      }
+      .content1,.content2,.content2,.content4{
+          /* border: 1px solid rgb(77, 226, 8); */
+          width: 350px;
+          margin: 0 auto;
       }
       .info::before{
           content: ' ';
